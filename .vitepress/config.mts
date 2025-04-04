@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "N",
-  description: "Nambu Next",
-  titleTemplate: 'N > :title',
+  title: "WIKI",
+  description: "NambuWiki Next",
+  titleTemplate: '南武文库 > :title',
 
   lang: 'zh-CN',
 
-  base: '/N/', // 由于部署时路径的需要
+  base: '/W/', // 由于部署时路径的需要
 })

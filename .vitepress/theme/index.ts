@@ -12,7 +12,7 @@ export default {
     // 全局主题配置
     const classicThemeKey = 'isClassicTheme'
 
-    if (import.meta.env.SSR) {
+    if ((import.meta as any).env.SSR) {
       console.log(TAG, 'SSR Polyfill LocalStorage')
 
       globalThis.localStorage = {
